@@ -1,0 +1,108 @@
+body{
+    background-image: url(bg1.png);
+}
+
+.header
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.container
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.names
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+
+.names ul:hover 
+{
+    color: gray;
+    cursor: pointer;
+}
+
+.names1
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+
+.names1 ul:hover 
+{
+    color: gray;
+    cursor: pointer;
+}
+
+a
+{
+    color: #f2f2f2;
+}
+
+a:active
+{
+    color: black;
+}
+
+.here
+{
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    font-size: 43px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.devNames
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.devNames a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
